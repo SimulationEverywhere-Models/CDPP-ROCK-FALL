@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ConfigFramework>
+   <Doc> This model simulates FallRock using Cell-Devs. It uses Lopez linux version with normal configurations. Drawlog file shows 3D visualization of simulation result logs. For Detailed XML configuration please see User Manual. </Doc>
+      <Files>
+	 <File ftype="ma">FallRock.ma</File>
+         <File ftype="stvalues">initial.stvalues</File>
+         <File ftype="sup">init.val</File>
+      </Files>
+   <Options>
+      <TimeOp>00:02:00:000</TimeOp>
+      <OnlyYMsgOP>true</OnlyYMsgOP>
+      <ParsingOp>false</ParsingOp>      
+   </Options>     
+   <DrawLog>
+      <CoupledModel>FallRock</CoupledModel>
+      <Width>3</Width>
+      <Precision>0</Precision>    
+      <NotPrintZero>false</NotPrintZero>   
+      <TimeInterval>00:00:00:100</TimeInterval>
+   </DrawLog>  
+</ConfigFramework>
